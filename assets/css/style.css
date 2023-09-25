@@ -461,6 +461,9 @@ header .right-part .nav2 ul li:not(:last-child)::after{
     border-radius: 5px;
 }
 /* end banner_8 */
+.categories img{
+    margin-bottom: 25px;
+}
 
 /* start footer */
 footer{
@@ -806,6 +809,9 @@ footer form .btn{
     }
     .banner_8 .banner-description hr{
         margin: auto;
+    }
+    .categories img{
+        margin-bottom: 10px;
     }
 
 
