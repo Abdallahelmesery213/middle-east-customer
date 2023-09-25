@@ -250,7 +250,7 @@ header .right-part .nav2 ul li:not(:last-child)::after{
     color: #000;
     font-size: 18px;
     font-family: acuminMediumFont;
-    margin-top: 30px;
+    margin-top: 0px;
 }
 /* end banner_2 */
 .header h2{
@@ -286,7 +286,7 @@ header .right-part .nav2 ul li:not(:last-child)::after{
     color: #000;
     font-size: 18px;
     font-family: acuminMediumFont;
-    margin-top: 30px;
+    margin-top: 0px;
 }
 .banner_3 .banner-description button{
     font-family: lightFont;
@@ -318,7 +318,7 @@ header .right-part .nav2 ul li:not(:last-child)::after{
 .banner_4 .banner-description p{
     font-size: 18px;
     /* font-family: lightFont; */
-    margin-top: 30px;
+    margin-top: 0px;
 }
 .banner_4 .banner-description button{
     font-family: lightFont;
@@ -350,7 +350,7 @@ header .right-part .nav2 ul li:not(:last-child)::after{
     color: #000;
     font-size: 18px;
     font-family: lightFont;
-    margin-top: 30px;
+    margin-top: 0px;
 }
 .banner_5 .banner-description button{
     font-family: lightFont;
@@ -385,7 +385,7 @@ header .right-part .nav2 ul li:not(:last-child)::after{
     color: #000;
     font-size: 18px;
     font-family: lightFont;
-    margin-top: 30px;
+    margin-top: 0px;
 }
 .banner_6 .banner-description button{
     font-family: lightFont;
@@ -419,7 +419,7 @@ header .right-part .nav2 ul li:not(:last-child)::after{
     color: #000;
     font-size: 18px;
     font-family: lightFont;
-    margin-top: 30px;
+    margin-top: 0px;
 }
 .banner_7 .banner-description button{
     font-family: lightFont;
@@ -454,13 +454,47 @@ header .right-part .nav2 ul li:not(:last-child)::after{
     color: #000;
     font-size: 18px;
     font-family: lightFont;
-    margin-top: 30px;
+    margin-top: 0px;
 }
 .banner_8 .banner-description button{
     font-family: lightFont;
     border-radius: 5px;
 }
 /* end banner_8 */
+/* start banner_9 */
+.banner_9{
+    position: relative;
+    background-image: url(./../img/customer_banner_8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 650px;
+    margin-bottom: 30px;
+}
+.banner_9 .banner-description h3{
+    color: #a87b22;
+    font-size: 30px;
+    margin-top: 47%;
+    font-family: boldFont;
+}
+.banner_9 .banner-description hr{
+    background-color: #a87b22;
+    width: 60%;
+    display: inline-flex;
+    margin-left: 0px;
+    border-width: 2px;
+}
+.banner_9 .banner-description p{
+    color: #000;
+    font-size: 18px;
+    font-family: lightFont;
+    margin-top: 0px;
+}
+.banner_9 .banner-description button{
+    font-family: lightFont;
+    border-radius: 5px;
+}
+/* end banner_9 */
 .categories img{
     margin-bottom: 25px;
 }
@@ -667,11 +701,15 @@ footer form .btn{
     .banner_3 .banner-description h3{
         margin-top: 40%;
     }
+    .banner .banner-description hr{
+        margin: 10px auto !important;
+    }
     .banner_4 .banner-description hr,
     .banner_7 .banner-description hr,
-    .banner_8 .banner-description hr{
+    .banner_8 .banner-description hr,
+    .banner_9 .banner-description hr{
         display: flex;
-        margin: auto;
+        margin: 10px auto;
     }
     /* .banner_3 .banner-description hr {
        margin-left: 0;
