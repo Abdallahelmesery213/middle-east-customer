@@ -338,7 +338,7 @@ header .right-part .nav2 ul li:not(:last-child)::after{
 .banner_5 .banner-description h3{
     color: #a87b22;
     font-size: 30px;
-    margin-top: 45%;
+    margin-top: 47%;
     font-family: boldFont;
 }
 .banner_5 .banner-description hr{
@@ -440,7 +440,7 @@ header .right-part .nav2 ul li:not(:last-child)::after{
 .banner_8 .banner-description h3{
     color: #a87b22;
     font-size: 30px;
-    margin-top: 45%;
+    margin-top: 47%;
     font-family: boldFont;
 }
 .banner_8 .banner-description hr{
@@ -524,6 +524,9 @@ footer .links span{
 footer .links span:hover{
     color: #8f631c;
     font-weight: 700;
+}
+footer form button.btn{
+    display: flex;
 }
 footer .subscribe-label{
     color: #b28032;
